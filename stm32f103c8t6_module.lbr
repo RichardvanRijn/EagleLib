@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -247,69 +248,70 @@
 <symbols>
 <symbol name="STM32F103C8T6-MODULE">
 <description>STM32F103C8T6 Module</description>
-<pin name="PB_12" x="-48.26" y="-20.32" visible="pin" length="middle" rot="R90"/>
-<pin name="PB_13" x="-43.18" y="-20.32" visible="pin" length="middle" rot="R90"/>
-<pin name="PB_14" x="-38.1" y="-20.32" visible="pin" length="middle" rot="R90"/>
-<pin name="PB_15" x="-33.02" y="-20.32" visible="pin" length="middle" rot="R90"/>
-<pin name="PA_8" x="-27.94" y="-20.32" visible="pin" length="middle" rot="R90"/>
-<pin name="PA_9" x="-22.86" y="-20.32" visible="pin" length="middle" rot="R90"/>
-<pin name="PA_10" x="-17.78" y="-20.32" visible="pin" length="middle" rot="R90"/>
-<pin name="PA_11" x="-12.7" y="-20.32" visible="pin" length="middle" rot="R90"/>
-<pin name="PA_12" x="-7.62" y="-20.32" visible="pin" length="middle" rot="R90"/>
-<pin name="PA_15" x="-2.54" y="-20.32" visible="pin" length="middle" rot="R90"/>
-<pin name="PB_3" x="2.54" y="-20.32" visible="pin" length="middle" rot="R90"/>
-<pin name="PB_4" x="7.62" y="-20.32" visible="pin" length="middle" rot="R90"/>
-<pin name="PB_5" x="12.7" y="-20.32" visible="pin" length="middle" rot="R90"/>
-<pin name="PB_6" x="17.78" y="-20.32" visible="pin" length="middle" rot="R90"/>
-<pin name="PB_7" x="22.86" y="-20.32" visible="pin" length="middle" rot="R90"/>
-<pin name="PB_8" x="27.94" y="-20.32" visible="pin" length="middle" rot="R90"/>
-<pin name="PB_9" x="33.02" y="-20.32" visible="pin" length="middle" rot="R90"/>
-<pin name="5V" x="38.1" y="-20.32" visible="pin" length="middle" rot="R90"/>
-<pin name="GND@1" x="43.18" y="-20.32" visible="pin" length="middle" rot="R90"/>
-<pin name="3.3V@1" x="48.26" y="-20.32" visible="pin" length="middle" rot="R90"/>
-<pin name="VB" x="48.26" y="20.32" visible="pin" length="middle" rot="R270"/>
-<pin name="PC_13" x="43.18" y="20.32" visible="pin" length="middle" rot="R270"/>
-<pin name="PC_14" x="38.1" y="20.32" visible="pin" length="middle" rot="R270"/>
-<pin name="PC_15" x="33.02" y="20.32" visible="pin" length="middle" rot="R270"/>
-<pin name="PA_0" x="27.94" y="20.32" visible="pin" length="middle" rot="R270"/>
-<pin name="PA_1" x="22.86" y="20.32" visible="pin" length="middle" rot="R270"/>
-<pin name="PA_2" x="17.78" y="20.32" visible="pin" length="middle" rot="R270"/>
-<pin name="PA_3" x="12.7" y="20.32" visible="pin" length="middle" rot="R270"/>
-<pin name="PA_4" x="7.62" y="20.32" visible="pin" length="middle" rot="R270"/>
-<pin name="PA_5" x="2.54" y="20.32" visible="pin" length="middle" rot="R270"/>
-<pin name="PA_6" x="-2.54" y="20.32" visible="pin" length="middle" rot="R270"/>
-<pin name="PA_7" x="-7.62" y="20.32" visible="pin" length="middle" rot="R270"/>
-<pin name="PB_0" x="-12.7" y="20.32" visible="pin" length="middle" rot="R270"/>
-<pin name="PB_1" x="-17.78" y="20.32" visible="pin" length="middle" rot="R270"/>
-<pin name="PB_10" x="-22.86" y="20.32" visible="pin" length="middle" rot="R270"/>
-<pin name="PB_11" x="-27.94" y="20.32" visible="pin" length="middle" rot="R270"/>
-<pin name="RESET" x="-33.02" y="20.32" visible="pin" length="middle" rot="R270"/>
-<wire x1="-53.34" y1="-15.24" x2="53.34" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="53.34" y1="-15.24" x2="53.34" y2="15.24" width="0.254" layer="94"/>
-<wire x1="53.34" y1="15.24" x2="-53.34" y2="15.24" width="0.254" layer="94"/>
-<wire x1="-53.34" y1="15.24" x2="-53.34" y2="-15.24" width="0.254" layer="94"/>
-<pin name="3.3V@2" x="-38.1" y="20.32" visible="pin" length="middle" rot="R270"/>
-<pin name="GND@2" x="-43.18" y="20.32" visible="pin" length="middle" rot="R270"/>
-<pin name="GND@3" x="-48.26" y="20.32" visible="pin" length="middle" direction="pwr" rot="R270"/>
-<wire x1="-53.34" y1="5.08" x2="-43.18" y2="5.08" width="0.254" layer="97"/>
-<wire x1="-43.18" y1="5.08" x2="-43.18" y2="2.54" width="0.254" layer="97"/>
-<wire x1="-43.18" y1="2.54" x2="-43.18" y2="0.762" width="0.254" layer="97"/>
-<wire x1="-43.18" y1="0.762" x2="-43.18" y2="-0.762" width="0.254" layer="97"/>
-<wire x1="-43.18" y1="-0.762" x2="-43.18" y2="-2.54" width="0.254" layer="97"/>
-<wire x1="-43.18" y1="-2.54" x2="-43.18" y2="-5.08" width="0.254" layer="97"/>
-<wire x1="-43.18" y1="-5.08" x2="-53.34" y2="-5.08" width="0.254" layer="97"/>
-<wire x1="-53.34" y1="-5.08" x2="-53.34" y2="5.08" width="0.254" layer="97"/>
-<wire x1="-43.18" y1="2.54" x2="-40.64" y2="2.54" width="0.254" layer="97"/>
-<wire x1="-43.18" y1="-2.54" x2="-40.64" y2="-2.54" width="0.254" layer="97"/>
-<wire x1="-43.18" y1="0.762" x2="-40.64" y2="0.762" width="0.254" layer="97"/>
-<wire x1="-43.18" y1="-0.762" x2="-40.64" y2="-0.762" width="0.254" layer="97"/>
-<text x="-48.26" y="-2.54" size="1.778" layer="97" rot="R90">USB</text>
-<wire x1="50.8" y1="7.62" x2="58.42" y2="7.62" width="1.27" layer="97"/>
-<wire x1="50.8" y1="2.54" x2="58.42" y2="2.54" width="1.27" layer="97"/>
-<wire x1="50.8" y1="-2.54" x2="58.42" y2="-2.54" width="1.27" layer="97"/>
-<wire x1="50.8" y1="-7.62" x2="58.42" y2="-7.62" width="1.27" layer="97"/>
-<text x="-54.356" y="-15.24" size="1.778" layer="95" rot="R90">&gt;Name</text>
+<pin name="PB_12" x="-27.94" y="-17.78" visible="pin" length="middle" rot="R90"/>
+<pin name="PB_13" x="-25.4" y="-17.78" visible="pin" length="middle" rot="R90"/>
+<pin name="PB_14" x="-22.86" y="-17.78" visible="pin" length="middle" rot="R90"/>
+<pin name="PB_15" x="-20.32" y="-17.78" visible="pin" length="middle" rot="R90"/>
+<pin name="PA_8" x="-17.78" y="-17.78" visible="pin" length="middle" rot="R90"/>
+<pin name="PA_9" x="-15.24" y="-17.78" visible="pin" length="middle" rot="R90"/>
+<pin name="PA_10" x="-12.7" y="-17.78" visible="pin" length="middle" rot="R90"/>
+<pin name="PA_11" x="-10.16" y="-17.78" visible="pin" length="middle" rot="R90"/>
+<pin name="PA_12" x="-7.62" y="-17.78" visible="pin" length="middle" rot="R90"/>
+<pin name="PA_15" x="-5.08" y="-17.78" visible="pin" length="middle" rot="R90"/>
+<pin name="PB_3" x="-2.54" y="-17.78" visible="pin" length="middle" rot="R90"/>
+<pin name="PB_4" x="0" y="-17.78" visible="pin" length="middle" rot="R90"/>
+<pin name="PB_5" x="2.54" y="-17.78" visible="pin" length="middle" rot="R90"/>
+<pin name="PB_6" x="5.08" y="-17.78" visible="pin" length="middle" rot="R90"/>
+<pin name="PB_7" x="7.62" y="-17.78" visible="pin" length="middle" rot="R90"/>
+<pin name="PB_8" x="10.16" y="-17.78" visible="pin" length="middle" rot="R90"/>
+<pin name="PB_9" x="12.7" y="-17.78" visible="pin" length="middle" rot="R90"/>
+<pin name="5V" x="15.24" y="-17.78" visible="pin" length="middle" rot="R90"/>
+<pin name="GND@1" x="17.78" y="-17.78" visible="pin" length="middle" rot="R90"/>
+<pin name="3.3V@1" x="20.32" y="-17.78" visible="pin" length="middle" rot="R90"/>
+<pin name="VB" x="20.32" y="17.78" visible="pin" length="middle" rot="R270"/>
+<pin name="PC_13" x="17.78" y="17.78" visible="pin" length="middle" rot="R270"/>
+<pin name="PC_14" x="15.24" y="17.78" visible="pin" length="middle" rot="R270"/>
+<pin name="PC_15" x="12.7" y="17.78" visible="pin" length="middle" rot="R270"/>
+<pin name="PA_0" x="10.16" y="17.78" visible="pin" length="middle" rot="R270"/>
+<pin name="PA_1" x="7.62" y="17.78" visible="pin" length="middle" rot="R270"/>
+<pin name="PA_2" x="5.08" y="17.78" visible="pin" length="middle" rot="R270"/>
+<pin name="PA_3" x="2.54" y="17.78" visible="pin" length="middle" rot="R270"/>
+<pin name="PA_4" x="0" y="17.78" visible="pin" length="middle" rot="R270"/>
+<pin name="PA_5" x="-2.54" y="17.78" visible="pin" length="middle" rot="R270"/>
+<pin name="PA_6" x="-5.08" y="17.78" visible="pin" length="middle" rot="R270"/>
+<pin name="PA_7" x="-7.62" y="17.78" visible="pin" length="middle" rot="R270"/>
+<pin name="PB_0" x="-10.16" y="17.78" visible="pin" length="middle" rot="R270"/>
+<pin name="PB_1" x="-12.7" y="17.78" visible="pin" length="middle" rot="R270"/>
+<pin name="PB_10" x="-15.24" y="17.78" visible="pin" length="middle" rot="R270"/>
+<pin name="PB_11" x="-17.78" y="17.78" visible="pin" length="middle" rot="R270"/>
+<pin name="RESET" x="-20.32" y="17.78" visible="pin" length="middle" rot="R270"/>
+<wire x1="-38.1" y1="-12.7" x2="25.4" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-12.7" x2="25.4" y2="12.7" width="0.254" layer="94"/>
+<wire x1="25.4" y1="12.7" x2="-38.1" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-38.1" y1="12.7" x2="-38.1" y2="-12.7" width="0.254" layer="94"/>
+<pin name="3.3V@2" x="-22.86" y="17.78" visible="pin" length="middle" rot="R270"/>
+<pin name="GND@2" x="-25.4" y="17.78" visible="pin" length="middle" rot="R270"/>
+<pin name="GND@3" x="-27.94" y="17.78" visible="pin" length="middle" direction="pwr" rot="R270"/>
+<wire x1="-38.1" y1="5.08" x2="-33.02" y2="5.08" width="0.254" layer="97"/>
+<wire x1="-33.02" y1="5.08" x2="-33.02" y2="2.54" width="0.254" layer="97"/>
+<wire x1="-33.02" y1="2.54" x2="-33.02" y2="0.762" width="0.254" layer="97"/>
+<wire x1="-33.02" y1="0.762" x2="-33.02" y2="-0.762" width="0.254" layer="97"/>
+<wire x1="-33.02" y1="-0.762" x2="-33.02" y2="-2.54" width="0.254" layer="97"/>
+<wire x1="-33.02" y1="-2.54" x2="-33.02" y2="-5.08" width="0.254" layer="97"/>
+<wire x1="-33.02" y1="-5.08" x2="-38.1" y2="-5.08" width="0.254" layer="97"/>
+<wire x1="-38.1" y1="-5.08" x2="-38.1" y2="5.08" width="0.254" layer="97"/>
+<wire x1="-33.02" y1="2.54" x2="-30.48" y2="2.54" width="0.254" layer="97"/>
+<wire x1="-33.02" y1="-2.54" x2="-30.48" y2="-2.54" width="0.254" layer="97"/>
+<wire x1="-33.02" y1="0.762" x2="-30.48" y2="0.762" width="0.254" layer="97"/>
+<wire x1="-33.02" y1="-0.762" x2="-30.48" y2="-0.762" width="0.254" layer="97"/>
+<text x="-35.56" y="-2.54" size="1.778" layer="97" rot="R90">USB</text>
+<wire x1="22.86" y1="7.62" x2="30.48" y2="7.62" width="1.27" layer="97"/>
+<wire x1="22.86" y1="2.54" x2="30.48" y2="2.54" width="1.27" layer="97"/>
+<wire x1="22.86" y1="-2.54" x2="30.48" y2="-2.54" width="1.27" layer="97"/>
+<wire x1="22.86" y1="-7.62" x2="30.48" y2="-7.62" width="1.27" layer="97"/>
+<text x="-39.116" y="-12.7" size="1.778" layer="95" rot="R90">&gt;Name</text>
 <text x="-17.78" y="0" size="1.778" layer="96">&gt;Value</text>
+<text x="22.86" y="0" size="1.778" layer="97" rot="R180">SWD</text>
 </symbol>
 </symbols>
 <devicesets>
