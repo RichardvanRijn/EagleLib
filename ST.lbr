@@ -183,55 +183,7 @@ Serial Debug port</text>
 </symbols>
 <devicesets>
 <deviceset name="STLINKV3MINI" prefix="J" uservalue="yes">
-<description>&lt;b&gt;WR-PHD 1.27 mm SMT Dual Socket Header, H=4.50 mm&lt;/b&gt;&lt;BR&gt;
-&lt;BR&gt;
-&lt;b&gt;ARTICLE PROPERTIES:&lt;/b&gt;
-&lt;BR&gt;
-&lt;BR&gt;Pins:4;​ 8;​ 10;​ 14;​ 16;​ 20;​ 28
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;KIND PROPERTIES&lt;/B&gt;:
-&lt;BR&gt;
-&lt;BR&gt;Pitch：1.27 mm
-&lt;BR&gt;Quality Class:3 as per CECC 75 301-802
-&lt;BR&gt;Rows：Dual
-&lt;BR&gt;Gender：Socket Header
-&lt;BR&gt;Type：Straight
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;MATERIAL PROPERTIES:&lt;/B&gt;
-&lt;BR&gt;
-&lt;BR&gt;Insulator Material :PA9T
-&lt;BR&gt;Insulator Flammability Rating:UL94 V-0
-&lt;BR&gt;Contact Material:Copper Alloy
-&lt;BR&gt;Contact Plating:Gold
-&lt;BR&gt;Contact Type:Stamped
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;GENERAL INFORMATION&lt;/B&gt;
-&lt;BR&gt;Operating Temperature:-40 up to +105 °C
-&lt;BR&gt;Compliance:Lead free / RoHS
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;ELECTRICAL PROPERTIES:&lt;/B&gt;
-&lt;BR&gt;
-&lt;BR&gt;Rated Current:max.;​ 1 A
-&lt;BR&gt;IR 1:1 A
-&lt;BR&gt;Withstanding Voltage:500 V (AC)
-&lt;BR&gt;Contact Resistance:20 mΩ
-&lt;BR&gt;RISO:1000 MΩ
-&lt;BR&gt;
-&lt;BR&gt;&lt;B&gt;CERTIFICATION&lt;/B&gt;
-&lt;BR&gt;UL Approval:E323964
-&lt;BR&gt;&lt;B&gt;PACKAGING PROPERTIES&lt;/B&gt;
-&lt;BR&gt;Packaging:Tube
-&lt;BR&gt;Packaging Unit:197;​ 105;​ 86;​ 62;​ 54;​ 44;​ 31
-&lt;BR&gt;
-&lt;BR&gt;
-&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o33198v209%20Family_Wr-PDH_623xxx21021.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://katalog.we-online.com/media/images/v2/o33198v209%20Family_Wr-PDH_623xxx21021.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-
-Details see: &lt;a href="https://katalog.we-online.com/en/em/PHD_1_27_SMT_DUAL_SOCKET_HEADER_6230XX21021"&gt;https://katalog.we-online.com/en/em/PHD_1_27_SMT_DUAL_SOCKET_HEADER_6230XX21021&lt;/a&gt;&lt;p&gt;
-&lt;BR&gt;
-Updated by Yingchun,Shan 2019-10-25
-&lt;BR&gt;
-2019 (C) Würth Elektronik</description>
+<description>&lt;b&gt;ST link V3 mini &lt;/b&gt;&lt;BR&gt;</description>
 <gates>
 <gate name="G$1" symbol="STLINKV3MINI" x="0" y="0"/>
 </gates>
@@ -257,17 +209,7 @@ Updated by Yingchun,Shan 2019-10-25
 <package3dinstance package3d_urn="urn:adsk.eagle:package:14805895/2"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/em/datasheet/62301421021.pdf" constant="no"/>
-<attribute name="GENDER" value="Socket Header" constant="no"/>
-<attribute name="IR" value="1A" constant="no"/>
-<attribute name="MATES" value="WR-PHD 1.27mm SMT Dual Pin Header,H=3.8mm/SMT Dual Pin Header,H=3.8mm(Reel)/THT Dual Pin Header" constant="no"/>
-<attribute name="PACKAGING" value="Tube" constant="no"/>
-<attribute name="PART-NUMBER" value=" 62301421021 " constant="no"/>
-<attribute name="PINS" value=" 14 " constant="no"/>
-<attribute name="ROWS" value="Dual" constant="no"/>
-<attribute name="TYPE" value="Straight" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
