@@ -9849,8 +9849,6 @@ WR-COM_USB_Micro Type AB_Horizontal_SMT Micro Type AB Horizontal SMT - with Pegs
 <vertex x="-4.25" y="-0.95" curve="-90"/>
 <vertex x="-4.85" y="-0.35"/>
 <vertex x="-4.85" y="0.35" curve="-90"/>
-<vertex x="-4.25" y="0.95"/>
-<vertex x="-4.25" y="0.95"/>
 </polygon>
 <wire x1="-4.55" y1="0.35" x2="-4.25" y2="0.65" width="0.1" layer="46" curve="-90"/>
 <wire x1="-4.25" y1="0.65" x2="-4.1" y2="0.65" width="0.1" layer="46"/>
@@ -9868,8 +9866,6 @@ WR-COM_USB_Micro Type AB_Horizontal_SMT Micro Type AB Horizontal SMT - with Pegs
 <vertex x="4.25" y="0.95" curve="-90"/>
 <vertex x="4.85" y="0.35"/>
 <vertex x="4.85" y="-0.35" curve="-90"/>
-<vertex x="4.25" y="-0.95"/>
-<vertex x="4.25" y="-0.95"/>
 </polygon>
 <polygon width="0.01" layer="29">
 <vertex x="4.25" y="-1.05"/>
@@ -9878,8 +9874,6 @@ WR-COM_USB_Micro Type AB_Horizontal_SMT Micro Type AB Horizontal SMT - with Pegs
 <vertex x="4.25" y="1.05" curve="-90"/>
 <vertex x="4.95" y="0.35"/>
 <vertex x="4.95" y="-0.35" curve="-90"/>
-<vertex x="4.25" y="-1.05"/>
-<vertex x="4.25" y="-1.05"/>
 </polygon>
 <polygon width="0.01" layer="1">
 <vertex x="4.25" y="-0.95"/>
@@ -9888,8 +9882,6 @@ WR-COM_USB_Micro Type AB_Horizontal_SMT Micro Type AB Horizontal SMT - with Pegs
 <vertex x="4.25" y="0.95" curve="-90"/>
 <vertex x="4.85" y="0.35"/>
 <vertex x="4.85" y="-0.35" curve="-90"/>
-<vertex x="4.25" y="-0.95"/>
-<vertex x="4.25" y="-0.95"/>
 </polygon>
 <wire x1="4.55" y1="-0.35" x2="4.25" y2="-0.65" width="0.1" layer="46" curve="-90"/>
 <wire x1="4.25" y1="-0.65" x2="4.1" y2="-0.65" width="0.1" layer="46"/>
@@ -10573,8 +10565,6 @@ WR-COM_USB_Micro Type B_Vertical_THT Micro Type B Vertical THT- Tape &amp; Reel 
 </polygon>
 </package>
 <package name="632723X00011">
-<smd name="Z5" x="0" y="0" dx="1" dy="0.2" layer="1" rot="R90"/>
-<smd name="Z6" x="0" y="-3.1" dx="1" dy="0.2" layer="1" rot="R90"/>
 <smd name="A1" x="-2.75" y="4.58" dx="1.2" dy="0.3" layer="1" rot="R90"/>
 <smd name="A2" x="-2.25" y="4.58" dx="1.2" dy="0.3" layer="1" rot="R90"/>
 <smd name="A3" x="-1.75" y="4.58" dx="1.2" dy="0.3" layer="1" rot="R90"/>
@@ -10633,37 +10623,33 @@ WR-COM_USB_Micro Type B_Vertical_THT Micro Type B Vertical THT- Tape &amp; Reel 
 <vertex x="5" y="-7.2"/>
 <vertex x="-5" y="-7.2"/>
 </polygon>
-<wire x1="-4.42" y1="2.78" x2="-4.11" y2="2.78" width="0.127" layer="46"/>
+<wire x1="-4.43" y1="2.78" x2="-4.11" y2="2.78" width="0.127" layer="46"/>
 <wire x1="-4.43" y1="1.58" x2="-4.11" y2="1.58" width="0.127" layer="46"/>
 <wire x1="-4.57" y1="2.64" x2="-4.43" y2="2.78" width="0.127" layer="46" curve="-90"/>
-<wire x1="-4.43" y1="2.78" x2="-4.42" y2="2.78" width="0.127" layer="46"/>
 <wire x1="-4.11" y1="2.78" x2="-3.97" y2="2.64" width="0.127" layer="46" curve="-90"/>
 <wire x1="-4.43" y1="1.58" x2="-4.57" y2="1.72" width="0.127" layer="46" curve="-90"/>
 <wire x1="-3.97" y1="1.72" x2="-4.11" y2="1.58" width="0.127" layer="46" curve="-90"/>
 <wire x1="4.57" y1="2.64" x2="4.57" y2="1.72" width="0.127" layer="46"/>
 <wire x1="3.97" y1="1.72" x2="3.97" y2="2.64" width="0.127" layer="46"/>
-<wire x1="4.12" y1="2.78" x2="4.43" y2="2.78" width="0.127" layer="46"/>
+<wire x1="4.11" y1="2.78" x2="4.43" y2="2.78" width="0.127" layer="46"/>
 <wire x1="4.11" y1="1.58" x2="4.43" y2="1.58" width="0.127" layer="46"/>
 <wire x1="3.97" y1="2.64" x2="4.11" y2="2.78" width="0.127" layer="46" curve="-90"/>
-<wire x1="4.11" y1="2.78" x2="4.12" y2="2.78" width="0.127" layer="46"/>
 <wire x1="4.43" y1="2.78" x2="4.57" y2="2.64" width="0.127" layer="46" curve="-90"/>
 <wire x1="4.11" y1="1.58" x2="3.97" y2="1.72" width="0.127" layer="46" curve="-90"/>
 <wire x1="4.57" y1="1.72" x2="4.43" y2="1.58" width="0.127" layer="46" curve="-90"/>
 <wire x1="-3.97" y1="-2.09" x2="-3.97" y2="-3.01" width="0.127" layer="46"/>
 <wire x1="-4.57" y1="-3.01" x2="-4.57" y2="-2.09" width="0.127" layer="46"/>
-<wire x1="-4.42" y1="-1.95" x2="-4.11" y2="-1.95" width="0.127" layer="46"/>
+<wire x1="-4.43" y1="-1.95" x2="-4.11" y2="-1.95" width="0.127" layer="46"/>
 <wire x1="-4.43" y1="-3.15" x2="-4.11" y2="-3.15" width="0.127" layer="46"/>
 <wire x1="-4.57" y1="-2.09" x2="-4.43" y2="-1.95" width="0.127" layer="46" curve="-90"/>
-<wire x1="-4.43" y1="-1.95" x2="-4.42" y2="-1.95" width="0.127" layer="46"/>
 <wire x1="-4.11" y1="-1.95" x2="-3.97" y2="-2.09" width="0.127" layer="46" curve="-90"/>
 <wire x1="-4.43" y1="-3.15" x2="-4.57" y2="-3.01" width="0.127" layer="46" curve="-90"/>
 <wire x1="-3.97" y1="-3.01" x2="-4.11" y2="-3.15" width="0.127" layer="46" curve="-90"/>
 <wire x1="4.57" y1="-2.09" x2="4.57" y2="-3.01" width="0.127" layer="46"/>
 <wire x1="3.97" y1="-3.01" x2="3.97" y2="-2.09" width="0.127" layer="46"/>
-<wire x1="4.12" y1="-1.95" x2="4.43" y2="-1.95" width="0.127" layer="46"/>
+<wire x1="4.11" y1="-1.95" x2="4.43" y2="-1.95" width="0.127" layer="46"/>
 <wire x1="4.11" y1="-3.15" x2="4.43" y2="-3.15" width="0.127" layer="46"/>
 <wire x1="3.97" y1="-2.09" x2="4.11" y2="-1.95" width="0.127" layer="46" curve="-90"/>
-<wire x1="4.11" y1="-1.95" x2="4.12" y2="-1.95" width="0.127" layer="46"/>
 <wire x1="4.43" y1="-1.95" x2="4.57" y2="-2.09" width="0.127" layer="46" curve="-90"/>
 <wire x1="4.11" y1="-3.15" x2="3.97" y2="-3.01" width="0.127" layer="46" curve="-90"/>
 <wire x1="4.57" y1="-3.01" x2="4.43" y2="-3.15" width="0.127" layer="46" curve="-90"/>
@@ -31681,7 +31667,7 @@ http://katalog.we-online.de/en/em/COM_3_1_THT_SMT_TYPE_C_RECEPTACLE_HORIZONTAL/6
 <connect gate="G$1" pin="VBUS1" pad="A9"/>
 <connect gate="G$1" pin="VBUS2" pad="B4"/>
 <connect gate="G$1" pin="VBUS3" pad="B9"/>
-<connect gate="SHIELD" pin="SHIELD" pad="GND GND1 Z1 Z2 Z3 Z4 Z5 Z6"/>
+<connect gate="SHIELD" pin="SHIELD" pad="GND GND1 Z1 Z2 Z3 Z4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -31923,7 +31909,7 @@ http://katalog.we-online.de/en/em/COM_3_1_THT_SMT_TYPE_C_RECEPTACLE_HORIZONTAL/6
 <connect gate="G$1" pin="VBUS1" pad="A9"/>
 <connect gate="G$1" pin="VBUS2" pad="B4"/>
 <connect gate="G$1" pin="VBUS3" pad="B9"/>
-<connect gate="SHIELD" pin="SHIELD" pad="GND GND1 Z1 Z2 Z3 Z4 Z5 Z6"/>
+<connect gate="SHIELD" pin="SHIELD" pad="GND GND1 Z1 Z2 Z3 Z4"/>
 </connects>
 <technologies>
 <technology name=""/>
