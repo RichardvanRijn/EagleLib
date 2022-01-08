@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -448,7 +448,6 @@
 <smd name="23" x="-0.75" y="1.9" dx="0.25" dy="0.6" layer="1"/>
 <smd name="24" x="-1.249996875" y="1.9" dx="0.25" dy="0.6" layer="1"/>
 <smd name="25" x="0.000003125" y="0" dx="2.6" dy="2.6" layer="1" cream="no"/>
-<smd name="V" x="0.000003125" y="-1.05" dx="0.5" dy="0.5" layer="1" roundness="100"/>
 <wire x1="-2.2352" y1="-2.2352" x2="-2.032" y2="-2.2352" width="0.2032" layer="21"/>
 <wire x1="-2.2352" y1="-2.2352" x2="-2.2352" y2="-2.032" width="0.2032" layer="21"/>
 <wire x1="2.032" y1="-2.2352" x2="2.2352" y2="-2.2352" width="0.2032" layer="21"/>
@@ -457,15 +456,12 @@
 <wire x1="2.032" y1="2.2352" x2="2.2352" y2="2.2352" width="0.2032" layer="21"/>
 <wire x1="-2.2352" y1="1.5748" x2="-2.2352" y2="2.2352" width="0.2032" layer="21"/>
 <wire x1="-2.2352" y1="2.2352" x2="-1.5748" y2="2.2352" width="0.2032" layer="21"/>
-<text x="-2.0828" y="2.9718" size="1.27" layer="21" ratio="6" rot="SR0">Designator87</text>
-<text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
 <wire x1="-2.0828" y1="-2.0828" x2="-2.0828" y2="2.0828" width="0.1524" layer="51"/>
 <wire x1="2.0828" y1="-2.0828" x2="2.0828" y2="2.0828" width="0.1524" layer="51"/>
 <wire x1="-2.0828" y1="2.0828" x2="2.0828" y2="2.0828" width="0.1524" layer="51"/>
 <wire x1="-2.0828" y1="-2.0828" x2="2.0828" y2="-2.0828" width="0.1524" layer="51"/>
 <wire x1="-1.143" y1="1.2954" x2="-1.7526" y2="1.2954" width="0.1016" layer="51" curve="-180"/>
 <wire x1="-1.7526" y1="1.2954" x2="-1.143" y2="1.2954" width="0.1016" layer="51" curve="-180"/>
-<text x="-1.8542" y="-1.143" size="1.27" layer="51" ratio="6" rot="SR0">.Designator</text>
 <polygon width="0.0254" layer="31">
 <vertex x="0.100003125" y="-1.248"/>
 <vertex x="1.248003125" y="-1.248"/>
@@ -490,7 +486,7 @@
 <vertex x="1.248003125" y="1.248"/>
 <vertex x="0.100003125" y="1.248"/>
 </polygon>
-<text x="-3.2766" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-2.54" y="2.54" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 </package>
 </packages>
 <packages3d>
