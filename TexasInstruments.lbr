@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -637,10 +637,10 @@
 <smd name="15" x="-0.2500625" y="1.475" dx="0.28" dy="0.85" layer="1" rot="R180" cream="no"/>
 <smd name="16" x="-0.7501875" y="1.475" dx="0.28" dy="0.85" layer="1" rot="R180" cream="no"/>
 <smd name="17" x="0" y="0" dx="1.8034" dy="1.8034" layer="1" cream="no"/>
-<pad name="V" x="-0.4064" y="-0.4064" drill="0.254" diameter="0.508"/>
-<pad name="V_1" x="-0.4064" y="0.4064" drill="0.254" diameter="0.508"/>
-<pad name="V_2" x="0.4064" y="-0.4064" drill="0.254" diameter="0.508"/>
-<pad name="V_3" x="0.4064" y="0.4064" drill="0.254" diameter="0.508"/>
+<pad name="V" x="-0.4064" y="-0.4064" drill="0.35" diameter="0.6"/>
+<pad name="V_1" x="-0.4064" y="0.4064" drill="0.35" diameter="0.6"/>
+<pad name="V_2" x="0.4064" y="-0.4064" drill="0.35" diameter="0.6"/>
+<pad name="V_3" x="0.4064" y="0.4064" drill="0.35" diameter="0.6"/>
 <polygon width="0.0254" layer="21">
 <vertex x="2.408" y="-0.0595"/>
 <vertex x="2.408" y="-0.4405"/>
@@ -946,12 +946,6 @@
 <vertex x="0.9652" y="0.9652"/>
 <vertex x="0.9652" y="-0.9652"/>
 <vertex x="0.5937" y="-0.9652"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="-2.535" y="-2.535"/>
-<vertex x="-2.535" y="2.535"/>
-<vertex x="2.535" y="2.535"/>
-<vertex x="2.535" y="-2.535"/>
 </polygon>
 <wire x1="1.4732" y1="0.762" x2="1.5748" y2="0.762" width="0.1524" layer="47"/>
 <wire x1="4.2672" y1="0.762" x2="4.6482" y2="0.762" width="0.1524" layer="47"/>
@@ -1296,12 +1290,6 @@
 <vertex x="0.9652" y="-0.9652"/>
 <vertex x="0.5937" y="-0.9652"/>
 </polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="-2.535" y="-2.535"/>
-<vertex x="-2.535" y="2.535"/>
-<vertex x="2.535" y="2.535"/>
-<vertex x="2.535" y="-2.535"/>
-</polygon>
 <wire x1="1.5748" y1="0.762" x2="4.2672" y2="0.762" width="0.1524" layer="47"/>
 <wire x1="4.2672" y1="0.254" x2="4.6482" y2="0.254" width="0.1524" layer="47"/>
 <wire x1="4.2672" y1="0.762" x2="4.2672" y2="2.032" width="0.1524" layer="47"/>
@@ -1378,6 +1366,14 @@
 <wire x1="-1.5748" y1="1.5748" x2="-1.5748" y2="0.3048" width="0.1524" layer="51"/>
 <text x="-3.0988" y="0.7366" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
 <text x="-3.2766" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Name</text>
+<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.127" layer="39"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="-2.54" width="0.127" layer="39"/>
+<wire x1="2.54" y1="-2.54" x2="-2.54" y2="-2.54" width="0.127" layer="39"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.127" layer="39"/>
+<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.127" layer="41"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="-2.54" width="0.127" layer="41"/>
+<wire x1="2.54" y1="-2.54" x2="-2.54" y2="-2.54" width="0.127" layer="41"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.127" layer="41"/>
 </package>
 </packages>
 <symbols>
@@ -2077,7 +2073,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lmzm23601.pdf"&gt; Datashee
 <connect gate="A" pin="CIN" pad="6"/>
 <connect gate="A" pin="DCTRL" pad="11"/>
 <connect gate="A" pin="EN" pad="15"/>
-<connect gate="A" pin="EPAD" pad="17"/>
+<connect gate="A" pin="EPAD" pad="17 V V_1 V_2 V_3"/>
 <connect gate="A" pin="FAULT" pad="16"/>
 <connect gate="A" pin="GND" pad="10"/>
 <connect gate="A" pin="IFB1" pad="7"/>
