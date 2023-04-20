@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1430,10 +1430,6 @@
 <smd name="15" x="-0.2501" y="1.475" dx="0.28" dy="0.85" layer="1" rot="R180" cream="no"/>
 <smd name="16" x="-0.7502" y="1.475" dx="0.28" dy="0.85" layer="1" rot="R180" cream="no"/>
 <smd name="17" x="0" y="0" dx="1.7" dy="1.7" layer="1" stop="no" cream="no"/>
-<pad name="V" x="-0.3937" y="-0.3937" drill="0.254" diameter="0.508"/>
-<pad name="V_1" x="-0.3937" y="0.3937" drill="0.254" diameter="0.508"/>
-<pad name="V_2" x="0.3937" y="-0.3937" drill="0.254" diameter="0.508"/>
-<pad name="V_3" x="0.3937" y="0.3937" drill="0.254" diameter="0.508"/>
 <wire x1="-1.829" y1="-1.829" x2="-1.2229" y2="-1.829" width="0.1524" layer="21"/>
 <wire x1="1.829" y1="-1.829" x2="1.829" y2="-1.2227" width="0.1524" layer="21"/>
 <wire x1="1.829" y1="1.829" x2="1.2229" y2="1.829" width="0.1524" layer="21"/>
@@ -1857,10 +1853,6 @@
 <smd name="13" x="1.769" y="1" dx="0.28" dy="0.85" layer="1" rot="R270"/>
 <smd name="14" x="0.75" y="1.731" dx="0.28" dy="0.85" layer="1"/>
 <smd name="15" x="0" y="0" dx="2.05" dy="2.05" layer="1" stop="no" cream="no"/>
-<pad name="V" x="-0.3937" y="-0.3937" drill="0.254" diameter="0.508"/>
-<pad name="V_1" x="-0.3937" y="0.3937" drill="0.254" diameter="0.508"/>
-<pad name="V_2" x="0.3937" y="-0.3937" drill="0.254" diameter="0.508"/>
-<pad name="V_3" x="0.3937" y="0.3937" drill="0.254" diameter="0.508"/>
 <wire x1="-1.952" y1="-1.952" x2="-1.2227" y2="-1.952" width="0.1524" layer="21"/>
 <wire x1="1.952" y1="-1.952" x2="1.952" y2="-1.4727" width="0.1524" layer="21"/>
 <wire x1="1.952" y1="1.952" x2="1.2227" y2="1.952" width="0.1524" layer="21"/>
