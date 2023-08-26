@@ -60,65 +60,38 @@
 <description>&lt;MJB44H11G NPN Transistor, 10 (Continuous) A, 20 (Peak) A, 80 V dc, 3 + Tab-Pin D2PAK&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
 <packages>
-<package name="NJVMJB44H11">
+<package name="DV-T263-101E-TR">
 <description>&lt;b&gt;D2PAK 3 CASE 418B04 ISSUE L_4&lt;/b&gt;&lt;br&gt;
 </description>
-<smd name="1" x="-2.54" y="1.752" dx="3.504" dy="1.016" layer="1" rot="R90"/>
-<smd name="2" x="2.54" y="1.752" dx="3.504" dy="1.016" layer="1" rot="R90"/>
-<smd name="3" x="0" y="11.965" dx="10.49" dy="8.38" layer="1"/>
-<text x="0" y="8.078" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="8.078" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-4.685" y1="6.044" x2="4.685" y2="6.044" width="0.2" layer="51"/>
-<wire x1="4.685" y1="6.044" x2="4.685" y2="15.694" width="0.2" layer="51"/>
-<wire x1="4.685" y1="15.694" x2="-4.685" y2="15.694" width="0.2" layer="51"/>
-<wire x1="-4.685" y1="15.694" x2="-4.685" y2="6.044" width="0.2" layer="51"/>
-<wire x1="-6.245" y1="17.155" x2="6.245" y2="17.155" width="0.1" layer="51"/>
-<wire x1="6.245" y1="17.155" x2="6.245" y2="-1" width="0.1" layer="51"/>
-<wire x1="6.245" y1="-1" x2="-6.245" y2="-1" width="0.1" layer="51"/>
-<wire x1="-6.245" y1="-1" x2="-6.245" y2="17.155" width="0.1" layer="51"/>
-<wire x1="-4.685" y1="7.044" x2="-4.685" y2="6.044" width="0.1" layer="21"/>
-<wire x1="-4.685" y1="6.044" x2="4.685" y2="6.044" width="0.1" layer="21"/>
-<wire x1="4.685" y1="6.044" x2="4.685" y2="7.044" width="0.1" layer="21"/>
-<wire x1="-2.6" y1="-0.677" x2="-2.6" y2="-0.677" width="0.2" layer="21"/>
-<wire x1="-2.6" y1="-0.677" x2="-2.6" y2="-0.477" width="0.2" layer="21" curve="180"/>
-<wire x1="-2.6" y1="-0.477" x2="-2.6" y2="-0.477" width="0.2" layer="21"/>
-<wire x1="-2.6" y1="-0.477" x2="-2.6" y2="-0.677" width="0.2" layer="21" curve="180"/>
+<smd name="1" x="-7.1" y="0" dx="13.7" dy="1.4" layer="1" rot="R90"/>
+<smd name="2" x="7.1" y="0" dx="13.7" dy="1.4" layer="1" rot="R90"/>
+<text x="11.43" y="5.538" size="1.27" layer="25" align="center">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
-<symbol name="NJVMJB44H11">
-<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.508" layer="94"/>
-<wire x1="0" y1="1.27" x2="2.54" y2="3.81" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.27" x2="2.54" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-3.81" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="2.54" y1="3.81" x2="2.54" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<circle x="1.27" y="0" radius="4.016" width="0.254" layer="94"/>
+<symbol name="DV-T263-101E-TR">
 <text x="6.35" y="1.27" size="1.778" layer="95" align="center-left">&gt;NAME</text>
 <text x="6.35" y="-1.27" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="B" x="-7.62" y="0" visible="pad" length="short"/>
-<pin name="E" x="2.54" y="-7.62" visible="pad" length="short" rot="R90"/>
-<pin name="C" x="2.54" y="7.62" visible="pad" length="short" rot="R270"/>
-<polygon width="0.254" layer="94">
-<vertex x="0.762" y="-2.54"/>
-<vertex x="1.27" y="-2.032"/>
-<vertex x="1.778" y="-3.048"/>
-</polygon>
+<pin name="1" x="-2.54" y="-2.54" visible="pad" length="short" rot="R90"/>
+<pin name="2" x="2.54" y="-2.54" visible="pad" length="short" rot="R90"/>
+<wire x1="-5.08" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="-5.08" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="0" width="0.1524" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="NJVMJB44H11" prefix="Q">
+<deviceset name="DV-T263-101E-TR" prefix="H">
 <description>&lt;b&gt;MJB44H11G NPN Transistor, 10 (Continuous) A, 20 (Peak) A, 80 V dc, 3 + Tab-Pin D2PAK&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MJB44H11G.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="NJVMJB44H11" x="0" y="0"/>
+<gate name="G$1" symbol="DV-T263-101E-TR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="NJVMJB44H11">
+<device name="" package="DV-T263-101E-TR">
 <connects>
-<connect gate="G$1" pin="B" pad="1"/>
-<connect gate="G$1" pin="C" pad="3"/>
-<connect gate="G$1" pin="E" pad="2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
